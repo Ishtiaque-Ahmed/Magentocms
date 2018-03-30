@@ -3,7 +3,15 @@ class HarrisWebworks_Blogpost_IndexController extends Mage_Core_Controller_Front
 {
     public function indexAction()
     {
-    	
+
+
+        $req=$this->getRequest()->getParams('blogtitle');
+        //print_r($req['blogtitle']);
+            if(isset($req['blogtitle']))
+            {
+                Mage::register('custom_var', $req['blogtitle']);
+            }
+
     	/*
     	 * Load an object by id 
     	 * Request looking like:
