@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HarrisWebworks_Blogpost>
+            <active>true</active>
+            <codePool>local</codePool>
+        </HarrisWebworks_Blogpost>
+    </modules>
+</config> 

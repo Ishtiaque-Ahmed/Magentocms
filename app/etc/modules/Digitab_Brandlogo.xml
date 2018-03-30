@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Digitab_Brandlogo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Digitab_Brandlogo>
+    </modules>
+</config> 

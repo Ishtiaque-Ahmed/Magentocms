@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <brandlogo_index_index>
+        <reference name="content">
+            <block type="digitab_brandlogoadmin/brandlogo" name="brandlogo" template="brandlogo/brandlogo.phtml" />
+        </reference>
+    </brandlogo_index_index>
+</layout> 

@@ -1,0 +1,113 @@
+<h4><?php //echo $this->__('Module List') ?></h4>
+
+
+<div class="row">
+    <div class="leftcolumn">
+
+
+    </div>
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me</h2>
+            <div class="fakeimg" style="height:100px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        </div>
+        <div class="card">
+            <h3>Popular Post</h3>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div>
+        </div>
+        <div class="card">
+            <h3>Follow Me</h3>
+            <p>Some text..</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <h2>Footer</h2>
+</div>
+            <?php
+
+
+
+                /*
+                    This shows how to load specific fields from a record in the database.
+                    1) Note the load(15), this corresponds to saying "select * from table where table_id = 15"
+                    2) You can then just use the get(fieldname) to pull specific data from the table.
+                    3) If you have a field named news_id, then it becomes getNewsId, etc.
+                */
+                /*
+                $news = Mage::getModel('blogpost/blogpost')->load(15);
+                echo $news->getNewsId();
+                echo $news->getTitle();
+                echo $news->getContent();
+                echo $news->getStatus();
+
+                */
+                
+                /*
+                    This shows an alternate way of loading datas from a record using the database the "Magento Way" (using blocks and controller).
+ 					Uncomment blocks in /app/code/local/Namespace/Module/controllers/IndexController.php if you want to use it.
+
+               */
+                /*
+                $object = $this->getBlogpost();
+                echo 'id: '.$object['test_id'].'<br/>';
+				echo 'title: '.$object['title'].'<br/>';
+				echo 'content: '.$object['content'].'<br/>';
+				echo 'status: '.$object['status'].'<br/>';
+                */            
+            
+            
+                /*
+                    This shows how to load multiple rows in a collection and save a change to them.
+                    1) The setPageSize function will load only 5 records per page and you can set the current Page with the setCurPage function.
+                    2) The $collection->walk('save') allows you to save everything in the collection after all changes have been made.
+                */
+                /*
+                $i = 0;
+                
+                $collection = Mage::getModel('blogpost/blogpost')->getCollection();
+                $collection->setPageSize(5);
+                $collection->setCurPage(2);
+                $size = $collection->getSize();
+                $cnt = count($collection);
+                foreach ($collection as $item) {
+                    $i = $i+1;
+                    $item->setTitle($i);
+                    echo $item->getTitle();
+                }
+
+                $collection->walk('save');
+                */
+                
+                /*
+                    This shows how to load a single record and save a change.
+                    1) Note the setTitle, this corresponds to the table field name, title, and then you pass it the text to change.
+                    2) Call the save() function only on a single record.
+                */
+                /*
+                $object = Mage::getModel('blogpost/blogpost')->load(1);
+                $object->setTitle('This is a changed title');
+                $object->save();
+				*/
+
+            ?> 

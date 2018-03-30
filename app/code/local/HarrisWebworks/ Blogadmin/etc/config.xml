@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HarrisWebworks_ Blogadmin>
+            <version>0.1.0</version>
+        </HarrisWebworks_ Blogadmin>
+    </modules>
+    <admin>
+        <routers>
+			< blogadmin>
+				<use>admin</use>
+				<args>
+					<module>HarrisWebworks_ Blogadmin</module>
+					<frontName> blogadmin</frontName>
+				</args>
+			</ blogadmin>
+        </routers>
+    </admin>
+    <adminhtml>
+		<menu>
+			< blogadmin module=" blogadmin">
+				<title> Blog</title>
+				<sort_order>71</sort_order>               
+				<children>
+					<items module=" blogadmin">
+						<title>Manage Items</title>
+						<sort_order>0</sort_order>
+						<action> blogadmin/ blog</action>
+					</items>
+				</children>
+			</ blogadmin>
+		</menu>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<HarrisWebworks_ Blogadmin>
+							<title> Blog Module</title>
+							<sort_order>10</sort_order>
+						</HarrisWebworks_ Blogadmin>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<layout>
+			<updates>
+				< blogadmin>
+					<file> blogadmin.xml</file>
+				</ blogadmin>
+			</updates>
+		</layout>
+    </adminhtml>   
+    <global>
+		<blocks>
+			< blogadmin>
+				<class>HarrisWebworks_ Blogadmin_Block</class>
+			</ blogadmin>
+		</blocks>
+		<helpers>
+			< blogadmin>
+				<class>HarrisWebworks_ Blogadmin_Helper</class>
+			</ blogadmin>
+		</helpers>
+    </global>
+</config>

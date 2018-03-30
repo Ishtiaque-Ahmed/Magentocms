@@ -1,0 +1,156 @@
+2018-03-21T10:01:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : Premature end of data in tag config line 2  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:49+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/menu&gt;  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:49+00:00 ERR (3): Warning: simplexml_load_string():        ^  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:54+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : Premature end of data in tag config line 2  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:54+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/menu&gt;  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:54+00:00 ERR (3): Warning: simplexml_load_string():        ^  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:57+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 22: parser error : Premature end of data in tag config line 2  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:57+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/menu&gt;  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:01:57+00:00 ERR (3): Warning: simplexml_load_string():        ^  in D:\xampp5\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2018-03-21T10:15:48+00:00 ERR (3): Recoverable Error: Argument 1 passed to Mage_Core_Controller_Varien_Action::__construct() must be an instance of Zend_Controller_Request_Abstract, none given, called in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\hellow2\hellow2.phtml on line 12 and defined  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php on line 138
+2018-03-21T10:15:48+00:00 ERR (3): Recoverable Error: Argument 2 passed to Mage_Core_Controller_Varien_Action::__construct() must be an instance of Zend_Controller_Response_Abstract, none given, called in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\hellow2\hellow2.phtml on line 12 and defined  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php on line 138
+2018-03-21T10:15:48+00:00 ERR (3): Notice: Undefined variable: request  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php on line 140
+2018-03-21T10:15:48+00:00 ERR (3): Notice: Undefined variable: response  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php on line 141
+2018-03-27T10:48:38+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-27T10:48:38+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-27T10:48:38+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-27T10:48:38+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 387: parser error : Opening and ending tag mismatch: block line 365 and reference  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/reference&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 388: parser error : Opening and ending tag mismatch: reference line 364 and checkout_onepage_index  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/checkout_onepage_index&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string():                              ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 541: parser error : Opening and ending tag mismatch: checkout_onepage_index line 343 and layout  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string():          ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 542: parser error : Premature end of data in tag layout line 29  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string():   in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:35+00:00 ERR (3): Warning: simplexml_load_string(): ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 387: parser error : Opening and ending tag mismatch: block line 365 and reference  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/reference&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 388: parser error : Opening and ending tag mismatch: reference line 364 and checkout_onepage_index  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/checkout_onepage_index&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string():                              ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 541: parser error : Opening and ending tag mismatch: checkout_onepage_index line 343 and layout  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string():          ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 542: parser error : Premature end of data in tag layout line 29  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string():   in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:41+00:00 ERR (3): Warning: simplexml_load_string(): ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 387: parser error : Opening and ending tag mismatch: block line 365 and reference  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/reference&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 388: parser error : Opening and ending tag mismatch: reference line 364 and checkout_onepage_index  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/checkout_onepage_index&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string():                              ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 541: parser error : Opening and ending tag mismatch: checkout_onepage_index line 343 and layout  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string():          ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 542: parser error : Premature end of data in tag layout line 29  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string():   in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T11:39:44+00:00 ERR (3): Warning: simplexml_load_string(): ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-27T13:19:47+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-27T13:19:47+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-27T13:19:47+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-27T13:19:47+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T07:04:15+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T07:04:15+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T07:04:15+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T07:04:15+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : error parsing attribute name  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : attributes construct error  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Couldn't find end of Start Tag men_index line 6  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/layout&gt;  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T07:55:03+00:00 ERR (3): Warning: simplexml_load_string(): ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-28T09:35:02+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:35:02+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:35:02+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:35:02+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:35:18+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:35:18+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:35:18+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:35:18+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:08+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:08+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:08+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:08+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:18+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:18+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:18+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:18+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:38+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:38+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:38+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:38+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:43+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:43+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:39:43+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:39:43+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:40:05+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:40:05+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:40:05+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:40:05+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:40:23+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:40:23+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:40:23+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:40:23+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:42:22+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:42:22+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:42:22+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:42:22+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:42:28+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:42:28+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:42:28+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:42:28+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:44:20+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:44:20+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:44:20+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:44:20+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:44:58+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:44:58+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T09:44:58+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-28T09:44:58+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-28T10:07:08+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 27
+2018-03-28T10:08:04+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 31
+2018-03-28T10:08:38+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:13:11+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:13:25+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:13:28+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:13:45+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:13:48+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:14:03+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:18:56+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:19:32+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:19:52+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:20:11+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:42:08+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:45:02+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:45:11+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:45:56+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:46:02+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:46:54+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:50:46+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:50:49+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:53:31+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:53:34+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T10:58:32+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-28T11:20:55+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
+2018-03-29T07:12:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 205: parser error : Double hyphen within comment: &lt;!-- &lt;page_one_column translate=&quot;label&quot;&gt;
+        &lt;labe  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-29T07:12:40+00:00 ERR (3): Warning: simplexml_load_string():             &lt;!-- Mark root page block that template is applied  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-29T07:12:40+00:00 ERR (3): Warning: simplexml_load_string():               ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-29T07:12:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 205: parser error : Double hyphen within comment: &lt;!-- &lt;page_one_column translate=&quot;label&quot;&gt;
+        &lt;labe  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-29T07:12:44+00:00 ERR (3): Warning: simplexml_load_string():             &lt;!-- Mark root page block that template is applied  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-29T07:12:44+00:00 ERR (3): Warning: simplexml_load_string():               ^  in D:\xampp5\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2018-03-29T07:22:55+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-29T07:22:55+00:00 ERR (3): Notice: Undefined index: xs  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-29T07:22:55+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 145
+2018-03-29T07:22:55+00:00 ERR (3): Notice: Undefined index: s  in D:\xampp5\htdocs\magento\app\code\core\Mage\ConfigurableSwatches\Helper\Productimg.php on line 151
+2018-03-29T07:22:56+00:00 ERR (3): Recoverable Error: Object of class Mage_Catalog_Model_Product could not be converted to string  in D:\xampp5\htdocs\magento\app\design\frontend\rwd\default\template\catalog\product\view\addtocart.phtml on line 30
