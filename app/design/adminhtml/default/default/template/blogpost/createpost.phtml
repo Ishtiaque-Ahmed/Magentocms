@@ -1,0 +1,108 @@
+<h4><?php //echo $this->__('Module List') ?></h4>
+
+
+<div class="container-fluid" style="width: 50%">
+<form  enctype="multipart/form-data"  action="<?php echo Mage::getUrl('blogpost/') ?>" method="post"  >
+    <fieldset>
+        <legend>Create a Blog </legend>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Blog Title</label>
+            <input name="blogtitle" type="text" class="form-control" id="blogtitle" placeholder="Enter Title">
+         <!--   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Tags</label>
+            <input  name="blogtags" type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleTextarea">Blog Content</label>
+            <textarea name="blogcontent" class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">Add Image</label>
+            <input name="simage" type="file" required accept="image/x-png,image/gif,image/jpeg" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+          <!--  <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small> -->
+        </div>
+        <button id="submitButton" type="submit" class="btn ">Submit</button>
+    </fieldset>
+</form>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+       $('#submitButton').on('click',function () {
+          $(this).hide();
+
+       }) ;
+    });
+
+</script>
+<?php
+
+
+
+/*
+    This shows how to load specific fields from a record in the database.
+    1) Note the load(15), this corresponds to saying "select * from table where table_id = 15"
+    2) You can then just use the get(fieldname) to pull specific data from the table.
+    3) If you have a field named news_id, then it becomes getNewsId, etc.
+*/
+/*
+$news = Mage::getModel('blogpost/blogpost')->load(15);
+echo $news->getNewsId();
+echo $news->getTitle();
+echo $news->getContent();
+echo $news->getStatus();
+
+*/
+
+/*
+    This shows an alternate way of loading datas from a record using the database the "Magento Way" (using blocks and controller).
+     Uncomment blocks in /app/code/local/Namespace/Module/controllers/IndexController.php if you want to use it.
+
+*/
+/*
+$object = $this->getBlogpost();
+echo 'id: '.$object['test_id'].'<br/>';
+echo 'title: '.$object['title'].'<br/>';
+echo 'content: '.$object['content'].'<br/>';
+echo 'status: '.$object['status'].'<br/>';
+*/
+
+
+/*
+    This shows how to load multiple rows in a collection and save a change to them.
+    1) The setPageSize function will load only 5 records per page and you can set the current Page with the setCurPage function.
+    2) The $collection->walk('save') allows you to save everything in the collection after all changes have been made.
+*/
+/*
+$i = 0;
+
+$collection = Mage::getModel('blogpost/blogpost')->getCollection();
+$collection->setPageSize(5);
+$collection->setCurPage(2);
+$size = $collection->getSize();
+$cnt = count($collection);
+foreach ($collection as $item) {
+    $i = $i+1;
+    $item->setTitle($i);
+    echo $item->getTitle();
+}
+
+$collection->walk('save');
+*/
+
+/*
+    This shows how to load a single record and save a change.
+    1) Note the setTitle, this corresponds to the table field name, title, and then you pass it the text to change.
+    2) Call the save() function only on a single record.
+*/
+/*
+$object = Mage::getModel('blogpost/blogpost')->load(1);
+$object->setTitle('This is a changed title');
+$object->save();
+*/
+
+?>

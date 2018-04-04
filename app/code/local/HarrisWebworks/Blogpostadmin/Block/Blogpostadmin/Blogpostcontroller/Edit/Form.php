@@ -1,6 +1,6 @@
 <?php
 
-class HarrisWebworks_ Blogadmin_Block_ Blog_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
+class HarrisWebworks_Blogpostadmin_Block_Blogpost_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
 {
   protected function _prepareForm()
   {

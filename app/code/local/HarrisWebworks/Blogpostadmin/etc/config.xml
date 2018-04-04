@@ -48,7 +48,7 @@
 		<layout>
 			<updates>
 				<blogpostadmin>
-					<file>blogpostadmin.xml</file>
+					<file>blogpost.xml</file>
 				</blogpostadmin>
 			</updates>
 		</layout>

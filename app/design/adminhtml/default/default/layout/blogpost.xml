@@ -1,8 +1,21 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
-    <blogpost_adminhtml_blogpost_index>
-        <reference name="content">
-            <block type="blogpost/adminhtml_blogpost" name="blogpost" />
+    <blogpostadmin_blogpost_index>
+
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/blog.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>bootstrap.min.css</stylesheet>
+            </action>
+            <action method="addJs">
+                <script>jquery-3.3.1.min.js</script>
+            </action>
         </reference>
-    </blogpost_adminhtml_blogpost_index>
+        <reference name="content">
+            <block type="blogpostadmin/blogpost" name="blogpost" template="blogpost/createpost.phtml" />
+
+        </reference>
+    </blogpostadmin_blogpost_index>
 </layout>

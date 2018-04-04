@@ -1,48 +1,48 @@
 <?php
 
-class HarrisWebworks_ Blogadmin_Block_ Blog_Grid extends Mage_Adminhtml_Block_Widget_Grid
+class HarrisWebworks_Blogpostadmin_Block_Blogpostadmin_Blogpostcontroller_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
   public function __construct()
   {
       parent::__construct();
-      $this->setId(' blogadminGrid');
-      $this->setDefaultSort(' blog_id');
+      $this->setId('blogpostadminGrid');
+      $this->setDefaultSort('blogpost_id');
       $this->setDefaultDir('ASC');
       $this->setSaveParametersInSession(true);
   }
 
   protected function _prepareCollection()
   {
-      $collection = Mage::getModel(' blog/ blog')->getCollection();
+      $collection = Mage::getModel('blogpost/blogpost')->getCollection();
       $this->setCollection($collection);
       return parent::_prepareCollection();
   }
 
   protected function _prepareColumns()
   {
-      $this->addColumn(' blog_id', array(
-          'header'    => Mage::helper(' blog')->__('ID'),
+      $this->addColumn('blogpost_id', array(
+          'header'    => Mage::helper('blogpost')->__('ID'),
           'align'     =>'right',
           'width'     => '50px',
-          'index'     => ' blog_id',
+          'index'     => 'blogpost_id',
       ));
 
       $this->addColumn('title', array(
-          'header'    => Mage::helper(' blog')->__('Title'),
+          'header'    => Mage::helper('blogpost')->__('Title'),
           'align'     =>'left',
           'index'     => 'title',
       ));
 
 	  /*
       $this->addColumn('content', array(
-			'header'    => Mage::helper(' blog')->__('Item Content'),
+			'header'    => Mage::helper('blogpost')->__('Item Content'),
 			'width'     => '150px',
 			'index'     => 'content',
       ));
 	  */
 
       $this->addColumn('status', array(
-          'header'    => Mage::helper(' blog')->__('Status'),
+          'header'    => Mage::helper('blogpost')->__('Status'),
           'align'     => 'left',
           'width'     => '80px',
           'index'     => 'status',
@@ -55,13 +55,13 @@ class HarrisWebworks_ Blogadmin_Block_ Blog_Grid extends Mage_Adminhtml_Block_Wi
 	  
         $this->addColumn('action',
             array(
-                'header'    =>  Mage::helper(' blog')->__('Action'),
+                'header'    =>  Mage::helper('blogpost')->__('Action'),
                 'width'     => '100',
                 'type'      => 'action',
                 'getter'    => 'getId',
                 'actions'   => array(
                     array(
-                        'caption'   => Mage::helper(' blog')->__('Edit'),
+                        'caption'   => Mage::helper('blogpost')->__('Edit'),
                         'url'       => array('base'=> '*/*/edit'),
                         'field'     => 'id'
                     )
@@ -72,35 +72,35 @@ class HarrisWebworks_ Blogadmin_Block_ Blog_Grid extends Mage_Adminhtml_Block_Wi
                 'is_system' => true,
         ));
 		
-		$this->addExportType('*/*/exportCsv', Mage::helper(' blog')->__('CSV'));
-		$this->addExportType('*/*/exportXml', Mage::helper(' blog')->__('XML'));
+		$this->addExportType('*/*/exportCsv', Mage::helper('blogpost')->__('CSV'));
+		$this->addExportType('*/*/exportXml', Mage::helper('blogpost')->__('XML'));
 	  
       return parent::_prepareColumns();
   }
 
     protected function _prepareMassaction()
     {
-        $this->setMassactionIdField(' blog_id');
-        $this->getMassactionBlock()->setFormFieldName(' blog');
+        $this->setMassactionIdField('blogpost_id');
+        $this->getMassactionBlock()->setFormFieldName('blogpost');
 
         $this->getMassactionBlock()->addItem('delete', array(
-             'label'    => Mage::helper(' blog')->__('Delete'),
+             'label'    => Mage::helper('blogpost')->__('Delete'),
              'url'      => $this->getUrl('*/*/massDelete'),
-             'confirm'  => Mage::helper(' blog')->__('Are you sure?')
+             'confirm'  => Mage::helper('blogpost')->__('Are you sure?')
         ));
 
-        $statuses = Mage::getSingleton(' blog/status')->getOptionArray();
+        $statuses = Mage::getSingleton('blogpost/status')->getOptionArray();
 
         array_unshift($statuses, array('label'=>'', 'value'=>''));
         $this->getMassactionBlock()->addItem('status', array(
-             'label'=> Mage::helper(' blog')->__('Change status'),
+             'label'=> Mage::helper('blogpost')->__('Change status'),
              'url'  => $this->getUrl('*/*/massStatus', array('_current'=>true)),
              'additional' => array(
                     'visibility' => array(
                          'name' => 'status',
                          'type' => 'select',
                          'class' => 'required-entry',
-                         'label' => Mage::helper(' blog')->__('Status'),
+                         'label' => Mage::helper('blogpost')->__('Status'),
                          'values' => $statuses
                      )
              )

@@ -36,5 +36,20 @@
 
 
     </blogpost_create_index_index>
+    <blogpost_index_pagination>
+        <reference name="root">
+            <remove name="right"/>
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/blog.css</stylesheet>
+            </action>
+        </reference>
+        <reference name="content">
+            <block name="blogpost_pagination" type="blogpost/pagination" template="blogpost/pagination.phtml"/>
+        </reference>
+    </blogpost_index_pagination>
 
 </layout> 

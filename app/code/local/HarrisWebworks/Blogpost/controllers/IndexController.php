@@ -88,7 +88,11 @@ class HarrisWebworks_Blogpost_IndexController extends Mage_Core_Controller_Front
 		$this->loadLayout(array('default'));
 		$this->renderLayout();
     }
-
+    public function paginationAction()
+    {
+        $this->loadLayout();
+        $this->renderLayout();
+    }
 
 
 }
