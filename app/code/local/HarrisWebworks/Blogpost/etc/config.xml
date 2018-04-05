@@ -2,7 +2,7 @@
 <config>
     <modules>
         <HarrisWebworks_Blogpost>
-            <version>0.1.1</version>
+            <version>0.1.2</version>
         </HarrisWebworks_Blogpost>
     </modules>
     <frontend>
