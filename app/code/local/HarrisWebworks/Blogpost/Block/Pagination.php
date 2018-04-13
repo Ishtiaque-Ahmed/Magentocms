@@ -32,4 +32,5 @@ class HarrisWebworks_Blogpost_Block_Pagination extends Mage_Core_Block_Template
     {
         return $this->getChildHtml('toolbar');
     }
+
 }

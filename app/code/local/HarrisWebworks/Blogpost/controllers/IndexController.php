@@ -33,9 +33,23 @@ class HarrisWebworks_Blogpost_IndexController extends Mage_Core_Controller_Front
 
                 try {
                     $model->save();
+                    $blogId= $model->getId();
+                    $url=preg_replace("/[^0-9a-zA-Z ]/", "", $req['blogtitle']);
+                    $url=str_replace(' ','-',$url);
+                    $url=strtolower($url);
+
 
                     Mage::getSingleton('adminhtml/session')->addSuccess($this->__('The baz has been saved.'));
-                   // $this->_redirect('*/*/');
+
+                    Mage::getModel('core/url_rewrite')
+                        ->setIsSystem(true)
+                        ->setIdPath('blogpost/index/pagination/?id='.$blogId)
+                        ->setTargetPath('blogpost/index/pagination/?id='.$blogId)
+                        ->setRequestPath('blogpost/index/pagination/'.$url)
+                        ->save();
+
+
+                    // $this->_redirect('*/*/');
 
                     //return;
                 }

@@ -69,4 +69,46 @@
             </brandlogo>
         </helpers>
     </global>
+    <adminhtml>
+        <menu>
+            <brands module="brandlogo">
+                <title>Brands</title>
+                <sort_order>71</sort_order>
+                <children>
+                <Blog_shower module="brandlogo">
+                    <title>Manage Blogs</title>
+                    <sort_order>0</sort_order>
+                    <action>brandlogo/adminhtml_brandlogo</action>
+                </Blog_shower>
+                    <Blog_editor module="brandlogo">
+                        <title>Edit Blogs</title>
+                        <sort_order>10</sort_order>
+                        <action>brandlogo/adminhtml/brandlogo2</action>
+                    </Blog_editor>
+                </children>
+            </brands>
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <Digitab_Brandlogo>
+                            <title>Brandlogo Module</title>
+                            <sort_order>10</sort_order>
+                        </Digitab_Brandlogo>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <brandlogo>
+                    <file>brandlogoadmin.xml</file>
+                </brandlogo>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>

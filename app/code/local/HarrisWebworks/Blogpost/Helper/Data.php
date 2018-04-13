@@ -20,4 +20,10 @@ class HarrisWebworks_Blogpost_Helper_Data extends Mage_Core_Helper_Abstract
         }
         return $result;
     }
+    public function process_url($title)
+    {
+        $blog_url=preg_replace("/[^0-9a-zA-Z ]/", "", $title);
+        $blog_url=str_replace(' ','-',$blog_url); $blog_url=strtolower($blog_url);
+        return $blog_url;
+    }
 }

@@ -27,7 +27,7 @@
         <layout>
             <updates>
                 <blogpost>
-                    <file>blogpost.xml</file>
+                    <file>blogpost.xml</file>+
                 </blogpost>
             </updates>
         </layout>

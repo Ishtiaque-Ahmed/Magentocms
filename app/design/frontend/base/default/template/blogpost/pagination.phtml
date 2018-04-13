@@ -114,7 +114,10 @@
                 <h2><?php   echo $item->getTitle();?></h2>
                 <h5><?php   echo $item->getCreatedAt();?></h5>
                 <div class="supcard">
-                    <a href='?id=<?php echo $item->getBlogpostID()?>'><img src="<?php echo Mage::getBaseUrl('media').DS.$item->getFilename(); ?>"/></a>
+                    <a href='<?php
+
+                    echo Mage::helper('blogpost/data')->process_url($item->getTitle());
+                    ?>'><img src="<?php echo Mage::getBaseUrl('media').DS.$item->getFilename(); ?>"/></a>
                 </div>
                 <p><?php   echo $item->getContent();?></p>
                </div>
@@ -170,7 +173,7 @@
                 <h2><?php   echo $item->getTitle();?></h2>
                 <h5><?php   echo $item->getCreatedAt();?></h5>
                 <div class="supcard">
-                    <a href='?id=<?php echo $item->getBlogpostID()?>'><img src="<?php echo Mage::getBaseUrl('media').DS.$item->getFilename(); ?>"/></a>
+                    <a href='<?php  echo Mage::helper('blogpost/data')->process_url($item->getTitle());?>'><img src="<?php echo Mage::getBaseUrl('media').DS.$item->getFilename(); ?>"/></a>
                 </div>
             </div>
 

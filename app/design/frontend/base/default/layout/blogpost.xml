@@ -37,6 +37,7 @@
 
     </blogpost_create_index_index>
     <blogpost_index_pagination>
+        <remove name="top.menu" />
         <reference name="root">
             <remove name="right"/>
             <action method="setTemplate"><template>page/1column.phtml</template></action>
