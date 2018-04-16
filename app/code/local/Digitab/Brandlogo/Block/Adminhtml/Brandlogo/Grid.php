@@ -30,16 +30,17 @@ class Digitab_Brandlogo_Block_Adminhtml_Brandlogo_Grid extends Mage_Adminhtml_Bl
       $this->addColumn('title', array(
           'header'    => Mage::helper('brandlogo')->__('Title'),
           'align'     =>'left',
+          'width'     => '150px',
           'index'     => 'title',
       ));
 
-	  /*
+
       $this->addColumn('content', array(
 			'header'    => Mage::helper('brandlogo')->__('Item Content'),
-			'width'     => '150px',
+
 			'index'     => 'content',
       ));
-	  */
+
 
       $this->addColumn('status', array(
           'header'    => Mage::helper('brandlogo')->__('Status'),

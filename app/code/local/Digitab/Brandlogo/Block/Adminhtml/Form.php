@@ -1,6 +1,6 @@
 <?php
 
-class Digitab_Brandlogo_Block_Adminhtml_Brandlogo_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
+class Digitab_Brandlogo_Block_Adminhtml_Form extends Mage_Adminhtml_Block_Widget_Form
 {
   protected function _prepareForm()
   {

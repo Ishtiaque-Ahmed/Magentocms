@@ -2,7 +2,7 @@
 <layout version="0.1.0">
     <brandlogo_adminhtml_brandlogo_index>
         <reference name="content">
-            <block type="brandlogo/adminhtml_brandlogo_brandlogo" name="brandlogoadmin" />
+            <block type="brandlogo/adminhtml_brandlogo" name="brandlogoadmin" />
         </reference>
     </brandlogo_adminhtml_brandlogo_index>
 </layout>

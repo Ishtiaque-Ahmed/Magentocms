@@ -5,6 +5,18 @@
             <version>0.1.0</version>
         </Digitab_Brandlogo>
     </modules>
+    <admin>
+        <routers>
+            <brandlogo>
+                <use>admin</use>
+                <args>
+                    <module>Digitab_Brandlogo</module>
+                    <frontName>brandlogo</frontName>
+                </args>
+            </brandlogo>
+        </routers>
+    </admin>
+
     <frontend>
         <routers>
             <brandlogo>
@@ -78,7 +90,7 @@
                 <Blog_shower module="brandlogo">
                     <title>Manage Blogs</title>
                     <sort_order>0</sort_order>
-                    <action>brandlogo/adminhtml_brandlogo</action>
+                    <action>brandlogo/adminhtml_brandlogo/</action>
                 </Blog_shower>
                     <Blog_editor module="brandlogo">
                         <title>Edit Blogs</title>
