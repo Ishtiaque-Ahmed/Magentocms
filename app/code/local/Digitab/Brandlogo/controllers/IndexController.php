@@ -41,7 +41,8 @@ class Digitab_Brandlogo_IndexController extends Mage_Core_Controller_Front_Actio
 		*/
 
 			
-		$this->loadLayout();     
+		$this->loadLayout();
+
 		$this->renderLayout();
     }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<widgets>
+    <widgetlinks_links type="brandlogo/links" translate="name description" module="brandlogo">
+
+        <name>Amp youtube</name>
+        <description>Allows to add youtube video link using amp by google</description>
+        <parameters>
+
+            <set_width>
+                <label>Width</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </set_width>
+            <set_height>
+                <label>Height</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </set_height>
+            <video_link>
+                <label>Video/Channel URL</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </video_link>
+            <is_responsive>
+            <label>Is Responsive?</label>
+            <visible>1</visible>
+            <required>1</required>
+            <type>select</type>
+            <source_model>brandlogo/responsive</source_model>
+        </is_responsive>
+            <autoplay>
+                <label>Auto play</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <source_model>brandlogo/responsive</source_model>
+            </autoplay>
+        </parameters>
+    </widgetlinks_links>
+</widgets>
