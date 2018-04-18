@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Harriswebworks_Theme>
+            <version>1.0.0</version>
+        </Harriswebworks_Theme>
+    </modules>
+    <global>
+		<blocks>
+            <harriswebworks_theme>
+                <class>Harriswebworks_Theme_Block</class>
+            </harriswebworks_theme>
+        </blocks>
+		<helpers>
+            <harriswebworks_theme>
+                <class>Harriswebworks_Theme_Helper</class>
+            </harriswebworks_theme>
+        </helpers>
+        <models>
+            <harriswebworks_theme>
+                <class>Harriswebworks_Theme_Model</class>
+            </harriswebworks_theme>
+        </models>
+    </global>
+	  <frontend>
+	  	
+		  <events>    
+			   <sales_quote_collect_totals_before>
+				   <observers>
+					   <sales_quote_add_item_handler>
+						   <type>singleton</type>
+						   <class>Harriswebworks_Theme_Model_Observer</class>
+						   <method>checkTax</method>
+					   </sales_quote_add_item_handler>
+				   </observers>
+			   </sales_quote_collect_totals_before>
+			   <sales_quote_address_collect_totals_after>
+				   <observers>
+					   <sales_quote_add_shipping_address_handler>
+						   <type>singleton</type>
+						   <class>Harriswebworks_Theme_Model_Observer</class>
+						   <method>checkShippingTax</method>
+					   </sales_quote_add_shipping_address_handler>
+				   </observers>
+			   </sales_quote_address_collect_totals_after>
+			   <sales_quote_address_collect_totals_before>
+				   <observers>
+					   <sales_quote_add_shipping_address_handler>
+						   <type>singleton</type>
+						   <class>Harriswebworks_Theme_Model_Observer</class>
+						   <method>checkShippingTax</method>
+					   </sales_quote_add_shipping_address_handler>
+				   </observers>
+			   </sales_quote_address_collect_totals_before>
+				<controller_action_layout_load_before>
+					<observers>
+						<apply_amp_handle>
+							<class>Harriswebworks_Theme_Model_Observer</class>
+							<method>activateAmpTheme</method>
+						</apply_amp_handle>
+					</observers>
+				</controller_action_layout_load_before>
+
+		</events>
+		
+        <!--<layout>
+            <updates>
+                <harriswebworks_theme>
+                    <file>harriswebworks_theme.xml</file>
+                </harriswebworks_theme>
+            </updates>
+        </layout>-->
+    </frontend>
+</config>
