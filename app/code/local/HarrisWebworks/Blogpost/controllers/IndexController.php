@@ -107,6 +107,28 @@ class HarrisWebworks_Blogpost_IndexController extends Mage_Core_Controller_Front
         $this->loadLayout();
         $this->renderLayout();
     }
+    public function sendAction()
+    {
+
+      $emailTemplate = Mage::getModel('core/email');
+      $emailTemplate->setFromName('Your Store Name');
+
+      $body = 'Test from Magento';
+      $subject = 'No subject';
+      $emailTemplate->setBody($body);
+      $emailTemplate->setSubject($subject);
+      $emailTemplate->setType('html');
+      $emailTemplate->setToEmail('ist1205.buet@gmail.com');
+      try
+      {
+        $emailTemplate->send();
+        echo 'success';
+      }
+      catch (Exception $e)
+      {
+        print_r($e->getMessage());
+      }
+    }
 
 
 }
